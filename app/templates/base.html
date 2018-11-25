@@ -1,12 +1,10 @@
 <html>
     <head>
-        <title>
-            {% if title %}
-            {{ title }} - Microblog
-            {% else %}
-            <title>Welcome to My Microblog!</title>
-            {% endif %}
-        </title>
+        {% if title %}
+        <title>{{ title }} - Microblog</title>
+        {% else %}
+        <title>Welcome to My Microblog!</title>
+        {% endif %}
     </head>
     <body>
         <div>
