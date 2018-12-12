@@ -6,3 +6,4 @@ flask-mega-tutorial.pdf
 logs*
 app.db
 microblog.log*
+messages.pot
